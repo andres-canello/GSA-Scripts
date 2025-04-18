@@ -134,4 +134,3 @@ Because the LaunchDaemon has `RunAtLoad` enabled, it will automatically start on
 
 ---
 
-*Share this README with any macOS user to quickly deploy automated corporate DNS detection and plist toggling.*
