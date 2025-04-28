@@ -12,8 +12,14 @@ This repository provides a Bash script and LaunchDaemon configuration to detect 
 ---
 
 ## 1. Install the Bash Script
+1. **Ensure the target directory exists:**
+   Open Terminal and run:
+   ```bash
+   sudo mkdir -p /usr/local/bin
+   ```
 
-1. **Create the script**  
+2. **Create the script**  
+
    Open Terminal and run:
    ```bash
    sudo tee /usr/local/bin/check_corp_dns.sh > /dev/null << 'EOF'
